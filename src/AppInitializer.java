@@ -3,15 +3,20 @@
 //20-11-08
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class AppInitializer extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/dashboard/DashBoardForm.fxml"))));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/loginform/LoginForm.fxml"));
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
         primaryStage.initStyle(StageStyle.TRANSPARENT);
+        scene.setFill(Color.TRANSPARENT);
         primaryStage.show();
     }
     public static void main(String[] args) {
