@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.winscandashboard.WindowsScanDashBoardController">
+   <children>
+      <Pane prefHeight="800.0" prefWidth="337.0" style="-fx-background-color: #27ae60;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="74.0" layoutX="46.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/laptop_settings_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="133.0" layoutY="75.0" text="ALPHA " textFill="#3ae374">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font></Label>
+            <Label layoutX="133.0" layoutY="102.0" text="ANTI-MALWARE" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutY="213.0" opacity="0.4" prefHeight="92.0" prefWidth="337.0" style="-fx-background-color: WHITE;" />
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="54.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/imac_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="126.0" layoutY="245.0" text="OVERVIEW" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutX="1.0" layoutY="306.0" opacity="0.05" prefHeight="92.0" prefWidth="337.0" style="-fx-background-color: WHITE;" />
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="55.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/search_60px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="128.0" layoutY="336.0" text="SCAN" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutX="1.0" layoutY="405.0" opacity="0.05" prefHeight="92.0" prefWidth="337.0" style="-fx-background-color: WHITE;" />
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="55.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/time_machine_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="128.0" layoutY="437.0" text="HISTORY" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutY="504.0" opacity="0.05" prefHeight="92.0" prefWidth="337.0" style="-fx-background-color: WHITE;" />
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="54.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/settings_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="127.0" layoutY="535.0" text="SETTINGS" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Separator layoutX="1.0" layoutY="400.0" opacity="0.5" prefHeight="0.0" prefWidth="337.0" />
+            <Separator layoutX="1.0" layoutY="500.0" opacity="0.5" prefHeight="0.0" prefWidth="337.0" />
+            <Label layoutX="54.0" layoutY="692.0" text="Version 1.0.1.10" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="17.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="55.0" layoutY="725.0" prefHeight="42.0" prefWidth="225.0" style="-fx-background-color: #3ae374; -fx-background-radius: 10;" text="ACTIVATE NOW" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Pane layoutX="337.0" prefHeight="306.0" prefWidth="1023.0" style="-fx-background-color: #3ae374;">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="77.0" layoutX="98.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/ok_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="195.0" layoutY="92.0" text="PC in a good shape " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="195.0" layoutY="168.0" text="Scanner :" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="298.0" layoutY="168.0" text="Active" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="195.0" layoutY="199.0" text="Last Scane :" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="328.0" layoutY="199.0" text="12/11/2020" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="195.0" layoutY="233.0" text="Current Date :" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="355.0" layoutY="233.0" text="12/11/2020" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="776.0" layoutY="75.0" style="-fx-border-color: WHITE;" text="RUN A SCAN" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font></JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="988.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/multiply_127px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="946.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/compress_127px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="899.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/horizontal_line_127px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="370.0" layoutY="400.0" prefHeight="274.0" prefWidth="301.0" style="-fx-background-color: #16da64;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="92.0" layoutX="112.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/search_60px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="94.0" layoutY="169.0" text="Run a Scan" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="699.0" layoutY="400.0" prefHeight="274.0" prefWidth="301.0" style="-fx-background-color: #3ae374;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="92.0" layoutX="112.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/user_shield_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="167.0" text="Account Protection" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="1030.0" layoutY="400.0" prefHeight="274.0" prefWidth="301.0" style="-fx-background-color: #60f491;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="92.0" layoutX="109.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../asserts/winscandashboard/update_left_rotation_127px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="168.0" text="Cheack for Updates" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <JFXButton buttonType="RAISED" layoutX="1128.0" layoutY="719.0" prefHeight="42.0" prefWidth="203.0" style="-fx-background-color: #3ae374; -fx-background-radius: 10;" text="UPDGRADE" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
