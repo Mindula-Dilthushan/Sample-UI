@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: TRANSPARENT;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.dashboard.movieshop.MovieShopMainFormController">
+   <children>
+      <AnchorPane layoutX="13.0" layoutY="12.0" prefHeight="697.0" prefWidth="1258.0" style="-fx-border-color: black; -fx-background-color: whitesmoke; -fx-border-radius: 25; -fx-background-radius: 30;" styleClass="main" stylesheets="@movieshopstyle.css">
+         <children>
+            <Separator layoutX="41.0" layoutY="78.0" prefHeight="0.0" prefWidth="1177.0" />
+            <Label layoutX="117.0" layoutY="31.0" text="Alpha Movie ">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="294.0" layoutY="53.0" opacity="0.72" text="Moving &amp; Delevery">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="55.0" fitWidth="65.0" layoutX="52.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../asserts/movieshop/logoicon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="683.0" layoutY="33.0" text="Services">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="785.0" layoutY="33.0" text="Cities">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="867.0" layoutY="33.0" text="Get an estimate">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="1053.0" layoutY="24.0" prefHeight="38.0" prefWidth="143.0" style="-fx-border-color: black; -fx-border-radius: 20; -fx-background-radius: 20;" styleClass="btbook" stylesheets="@movieshopstyle.css" text="Book Now">
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#cdcdcd" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="454.0" layoutY="117.0" text="Schedule a Alpha Movie">
+               <font>
+                  <Font name="Berlin Sans FB" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="492.0" layoutY="168.0" opacity="0.71" text="Select a category and we'll get you moving !">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="220.0" layoutY="220.0" prefHeight="200.0" prefWidth="250.0" style="-fx-background-color: #686de0; -fx-background-radius: 20;">
+               <children>
+                  <Pane layoutX="6.0" layoutY="6.0" prefHeight="190.0" prefWidth="230.0" style="-fx-background-radius: 20;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="6.0">
+                     <children>
+                        <ImageView fitHeight="84.0" fitWidth="86.0" layoutX="76.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asserts/movieshop/delivery_127px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="60.0" layoutY="110.0" text="Store Delivery">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="75.0" layoutY="129.0" prefHeight="35.0" prefWidth="84.0" text="-&gt;">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="220.0" layoutY="430.0" prefHeight="200.0" prefWidth="250.0" style="-fx-background-radius: 20;">
+               <children>
+                  <Pane layoutX="7.0" layoutY="6.0" prefHeight="190.0" prefWidth="230.0" style="-fx-background-color: #bdc3c7; -fx-background-radius: 20;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="6.0">
+                     <children>
+                        <ImageView fitHeight="72.0" fitWidth="84.0" layoutX="82.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asserts/movieshop/handshake_127px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="50.0" layoutY="103.0" text="Craigslist Pickup">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="125.0" prefHeight="35.0" prefWidth="84.0" text="-&gt;">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="505.0" layoutY="220.0" prefHeight="200.0" prefWidth="250.0" style="-fx-background-radius: 20;">
+               <children>
+                  <Pane layoutX="7.0" layoutY="6.0" prefHeight="190.0" prefWidth="230.0" style="-fx-background-color: #bdc3c7; -fx-background-radius: 20;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="6.0">
+                     <children>
+                        <Label layoutX="70.0" layoutY="105.0" text="Small Move">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="0.1111111111111111" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="125.0" prefHeight="35.0" prefWidth="84.0" text="-&gt;">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </JFXButton>
+                        <ImageView fitHeight="72.0" fitWidth="84.0" layoutX="82.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asserts/movieshop/small_business_127px.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="504.0" layoutY="430.0" prefHeight="200.0" prefWidth="250.0" style="-fx-background-radius: 20;">
+               <children>
+                  <Pane layoutX="7.0" layoutY="6.0" prefHeight="190.0" prefWidth="230.0" style="-fx-background-color: #bdc3c7; -fx-background-radius: 20;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="6.0">
+                     <children>
+                        <ImageView fitHeight="72.0" fitWidth="84.0" layoutX="82.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asserts/movieshop/get_cash_filled_127px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="76.0" layoutY="103.0" text="Donations">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="125.0" prefHeight="35.0" prefWidth="84.0" text="-&gt;">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="790.0" layoutY="219.0" prefHeight="200.0" prefWidth="250.0" style="-fx-background-radius: 20;">
+               <children>
+                  <Pane layoutX="7.0" layoutY="6.0" prefHeight="190.0" prefWidth="230.0" style="-fx-background-color: #bdc3c7; -fx-background-radius: 20;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="6.0">
+                     <children>
+                        <Label layoutX="61.0" layoutY="111.0" text="Storage Move">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="129.0" prefHeight="35.0" prefWidth="84.0" text="-&gt;">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </JFXButton>
+                        <ImageView fitHeight="84.0" fitWidth="97.0" layoutX="76.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asserts/movieshop/business_127px.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="790.0" layoutY="430.0" prefHeight="200.0" prefWidth="250.0" style="-fx-background-radius: 20;">
+               <children>
+                  <Pane layoutX="7.0" layoutY="6.0" prefHeight="190.0" prefWidth="230.0" style="-fx-background-color: #bdc3c7; -fx-background-radius: 20;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="6.0">
+                     <children>
+                        <ImageView fitHeight="72.0" fitWidth="84.0" layoutX="82.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../asserts/movieshop/tv_show_127px.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="89.0" layoutY="103.0" text="Online ">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="76.0" layoutY="125.0" prefHeight="35.0" prefWidth="84.0" text="-&gt;">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="WHITE" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#686de0" />
+                                    <Stop color="#686de0" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -12,7 +12,7 @@ import javafx.stage.StageStyle;
 public class AppInitializer extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/view/winscandashboard/WindowsScanDashBoard.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/dashboard/movieshop/MovieShopMainForm.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.initStyle(StageStyle.TRANSPARENT);
